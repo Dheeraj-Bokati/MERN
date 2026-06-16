@@ -30,3 +30,12 @@
 //* git status  -> current status    
 //* git add <file_path>                     (ready state)
 //* git commit -m "<commit_message>"        (new version)
+
+//? github
+//* git remote -v
+//* git remote add origin <remote_repo_url>
+//* git remote  remove origin
+//* git push origin <branch_name>
+
+//? ignore
+// .gitignore file
