@@ -23,7 +23,7 @@ let h = false;
 //* undefined
 let i; 
 console.log(i); //value is declared but not initialized => undefined
-
+                // if value is not declared => not defined
 //*null
 let j = null;
 console.log(j);
