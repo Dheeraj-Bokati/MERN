@@ -48,3 +48,6 @@
 
 //? merge
 //* git merge <branch_name>
+
+//? merge conflit
+//* this happen when two branches make changes on same file on same line
