@@ -35,7 +35,7 @@
 //* git remote -v
 //* git remote add origin <remote_repo_url>
 //* git remote  remove origin
-//* git push origin <branch_name>
+//* git push origin <branch_name>  // git push origin main
 
 //? ignore
 //* .gitignore file
@@ -43,3 +43,4 @@
 //? branching
 //* git branch 
 //* git branch <branch_name>  -> create new branch
+
