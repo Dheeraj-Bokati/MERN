@@ -36,6 +36,7 @@
 //* git remote add origin <remote_repo_url>
 //* git remote  remove origin
 //* git push origin <branch_name>  // git push origin main
+//* git pull origin <branch_name> // git pull origin main
 
 //? ignore
 //* .gitignore file
@@ -45,6 +46,9 @@
 //* git branch <branch_name>  -> create new branch
 //* git switch <branch_name>  -> switch between branches
 //* git switch -c <branch_name>  -> create & switch to new branch
+//* git checkout <branch_name>  -> switch between branch
+//* git checkout -b <branch_name> -> create & switch to new branch
+
 
 //? merge
 //* git merge <branch_name>
