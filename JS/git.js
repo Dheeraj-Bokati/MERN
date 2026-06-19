@@ -44,6 +44,8 @@
 //? branching
 //* git branch 
 //* git branch <branch_name>  -> create new branch
+//* git branch -d <branch_name> -> delete branch / soft
+//* git branch -D <branch_name> -> delete branch / hard
 //* git switch <branch_name>  -> switch between branches
 //* git switch -c <branch_name>  -> create & switch to new branch
 //* git checkout <branch_name>  -> switch between branch
@@ -55,3 +57,44 @@
 
 //? merge conflit
 //* this happen when two branches make changes on same file on same line
+
+//? commit history
+//* git log
+//* git log --oneline
+
+//? rebase  
+//! branch main: A -> B -> C -> F -> G
+//! branch test:           C -> D -> E 
+//! branch test:           C -> F -> G -> D -> E   (after rebase)
+
+//* git rebase <branch_name>    // git rebase name
+
+
+//* cherry-pick <commit-id>
+//? git cherry-pick a0c3976  (id get from log)
+//! branch main: A -> B -> C -> F -> G -> D'
+//! branch fix:            C -> D -> E
+
+//? reset
+//* git reset <commit_id>
+//* git reset --soft <commit_id>
+//* git reset --mixed <commit_id>
+//* git reset --hard <commit_id>
+
+//! fix: C -> D -> E (completely delete commit)
+
+
+//? revert
+//* git revert <commit_id> 
+//! fix: C -> D -> E -> D'
+
+//? restore <file_name>
+//* git restore <file_name>
+
+
+//! PR  -> Pull Request
+//* main -> production branch
+//* develop -> integration branch
+//* feature/ -> feature branch  "feature/login branch"
+//* fix/ -> fix/
+//* hotfix -> hotfix/
