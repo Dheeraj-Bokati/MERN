@@ -94,3 +94,13 @@ console.log(res);
 
 //* for of loop
 
+//! jump/branching statements
+
+//* break
+ // entirely break the loop
+
+//* continue
+ // skip certain iterations
+
+//* return
+ // return the value and breaks the loop
