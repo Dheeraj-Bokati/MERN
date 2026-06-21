@@ -43,7 +43,10 @@ console.log(++z); // 11 , 12  (pre increment)
 //? decrement   --
 
 //* ternary op
-//?  ??
+//? condition ? exp_1 (true) : exp_2 (false)
+// one linear if else
+let age = 17;
+let res = age >=18 ? "can vote" : "can not vote";    
 
 //* typeof op
 console.log(typeof b); // string

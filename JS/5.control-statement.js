@@ -65,7 +65,32 @@ else{
     console.log("Minor");
 }
 
+//* ternary op. 
+
+let res = age>=60 ? "major" : age>=18 && age < 60 ? "adult" : "minor";
+console.log(res);
+
 //! switch - case
 
 //! loops
+
+//* do -while loop
+// do {
+// body
+// }while(condition);
+
+//* while loop
+// while (conditon) {
+// body
+// }
+
+//* for loop
+// for (variable initialization; condition; increment/decrement){
+//body
+//}
+
+//* for in loop
+
+
+//* for of loop
 
