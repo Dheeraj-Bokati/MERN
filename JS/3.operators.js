@@ -27,7 +27,7 @@ console.log(x); // output: 15
 
 let b = "10";
 let c = 10;
-console.log(b == c); // true
+console.log(b == c); // true  // perform type coearcing i.e implicit conversion first string 10 convert into number then perform equal operator
 console.log(b === c); // false
 
 
@@ -36,12 +36,14 @@ console.log(b === c); // false
 
 //! unary op
 //? increment   ++
-let x = 10;
-console.log(x++); // 10 , 11  (post increment)
-console.log(++x); // 11 , 12  (pre increment)
+let z = 10;
+console.log(z++); // 10 , 11  (post increment)
+console.log(++z); // 11 , 12  (pre increment)
 
 //? decrement   --
 
 //* ternary op
 //?  ??
 
+//* typeof op
+console.log(typeof b); // string
